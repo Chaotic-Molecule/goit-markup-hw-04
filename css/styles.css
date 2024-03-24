@@ -68,16 +68,14 @@ button {
     display: flex;
     gap: 40px;
     padding: 24px 0 24px;
-    position: relative;
-
 }
 
-.studio-item {
+.header-link-studio {
     position: relative;
     color: #404BBF;
 }
 
-.studio-item::after {
+.header-link-studio::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -89,7 +87,7 @@ button {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item {
+.header-link-portfolio {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
@@ -298,6 +296,12 @@ margin-bottom: 8px;
     padding: 32px 0;
 }
 
+.position-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 .social {
     display: flex;
     gap: 24px;
@@ -317,6 +321,7 @@ margin-bottom: 8px;
 .team-list-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio {
