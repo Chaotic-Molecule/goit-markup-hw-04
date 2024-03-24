@@ -72,6 +72,10 @@ button {
 
 }
 
+.studio-item {
+    position: relative;
+    color: #404BBF;
+}
 
 .studio-item::after {
     content: "";
