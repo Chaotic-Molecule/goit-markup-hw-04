@@ -72,7 +72,8 @@ button {
 
 .header-link-studio {
     position: relative;
-    color: #404BBF;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link-studio::after {
@@ -84,11 +85,15 @@ button {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .header-link-portfolio {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-e-info-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link {
@@ -317,6 +322,21 @@ margin-bottom: 8px;
     justify-content: center;
 }
 
+.social-media:hover {
+    background-color: #404bbf;
+}
+
+.social-media:focus {
+    background-color: #404bbf;
+}
+
+.social-media-icon {
+    fill: #f4f4fd;
+}
+
+.position-media-item {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .team-list-item {
     background-color: #FFFFFF;
